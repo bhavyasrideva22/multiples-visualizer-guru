@@ -7,7 +7,6 @@ import ComparableCompanyForm from '@/components/ComparableCompanyForm';
 import TargetCompanyForm from '@/components/TargetCompanyForm';
 import ValuationResults from '@/components/ValuationResults';
 import CalculatorExplanation from '@/components/CalculatorExplanation';
-import { Toaster } from '@/components/ui/toast';
 
 const CalculatorContent = () => {
   const { comparableCompanies, addComparableCompany, calculateValuation, valuationResult } = useCalculator();
